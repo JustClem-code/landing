@@ -1,0 +1,29 @@
+.btn {
+  padding: 20px 25px;
+  background-color: var(--mikado-yellow);
+  border: 2px solid transparent;
+  border-radius: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  padding: 20px 25px;
+  background-color: var(--mikado-yellow);
+  border-bottom: 2px solid var(--carrot-orange);
+  border-right: 2px solid var(--carrot-orange);
+  box-shadow: 2px 2px 2px black;
+}
+
+.btn:active {
+  padding: 20px 25px;
+  background-color: var(--mikado-yellow);
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 2px solid transparent;
+  border-right: 2px transparent;
+  box-shadow: 1px 1px 1px black;
+}

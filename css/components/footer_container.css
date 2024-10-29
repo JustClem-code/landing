@@ -1,0 +1,14 @@
+.footer-container {
+  height: 20vh;
+  width: 100%;
+  background: var(--lapis-lazuli);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+i {
+  font-size: 60px;
+  color: var(--mikado-yellow);
+}

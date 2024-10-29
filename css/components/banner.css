@@ -1,0 +1,26 @@
+@import url('./colors.css');
+
+.banner {
+  /* height: 20vh; */
+  width: 100vw;
+  background: var(--indigo-dye);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-block: 40px;
+}
+
+.banner h1 {
+  font-size: 60px;
+  color: whitesmoke;
+  letter-spacing: 15px;
+  line-height: 60px;
+}
+
+.banner p {
+  color: whitesmoke;
+  font-size: 20px;
+  letter-spacing: 10px;
+}

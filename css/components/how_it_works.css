@@ -1,0 +1,11 @@
+.how-it-works {
+  width: 100%;
+  height: 60vh;
+  background-color: var(--carrot-orange);
+  background: linear-gradient(0deg, var(--lapis-lazuli) 0%, var(--indigo-dye) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
